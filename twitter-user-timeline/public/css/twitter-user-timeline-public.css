@@ -1,0 +1,38 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.cvp_tweets {
+		
+		box-shadow: 1px 1px 1px 1px blue;
+		padding:2px;
+		margin-bottom:5px;
+
+	}
+	.cvp_tweets div p img {
+		vertical-align: text-top;
+		margin:0px 5px;
+	}
+
+	.cvp_tweets div p .tw_head {
+		font-family: Arial, sans-serif !important;
+		font-size: 20px !important;
+		color: #000;
+		font-weight: bold;
+		margin-top:10px !important;
+	}
+	.cvp_tweets div p .tw_scr {
+		font-family: Arial, sans-serif !important;
+		font-size: 16px !important;
+	}
+	.cvp_tweets .tw_body {
+		margin-left: 20px;
+	}
+	.cvp_tweets .tw_body .tw_time {
+		color: blue;
+		font-weight: bold;
+	}
+	.cvp_tweets .tw_body  .tw_msg {
+		color:green;
+	}
