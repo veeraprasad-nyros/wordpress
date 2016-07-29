@@ -1,5 +1,30 @@
 //To use this plugin follow the steps
 
-step1: Download the twitter-user-time-line plugin .zip file and uncompress the file. 
-       Then you will get the twitter-user-timeline folder.
+step1: Download the twitter-user-time-line plugin .zip file or download form the 
+       link:  https://github.com/veeraprasad-nyros/wordpress-simple-twitter-user-time-line-plugin/raw/master/twitter-user-timeline.zip
+       and uncompress the file. Then you will get the twitter-user-timeline folder.
 step2: Place the this folder into your wordpress plugin folder.
+
+Then you will find out the plugin name 'twitter-user-timeline' in your WordPress installed plugins. 
+Then you will place the following code then you will get the default result of my twitter time line.
+
+[twitts username='veeraprasad1989' show_tweets='true'][/twitts]
+or
+[twitts username='' show_tweets='true'][/twitts]
+
+You want to display your own time line write your twitter username.
+
+By default it displays the two time lines only.
+
+Usage syntax:
+ [twitts username=''  tweet_reset_time ='10' num_tweets='2' show_tweets='true'][/twitts]
+ 
+ Where username is the twitter username Ex: veeraprasad1989
+       tweet_reset_time is the refreshing time for redisplaying the twittes. It is in seconds.
+       num_tweets is the how many tweets you want to display.
+       show_tweets by default false. If you want to see the tweets then use the true.
+       You also place the content between the open and closing tags.
+       Ex: [twitts username='' show_tweets='true']Follow me[/twitts]
+       By default it displays the 'Follow veeraprasad1989 on Twitter' 
+       
+       See the snap shot to understand the output of the plugin.
